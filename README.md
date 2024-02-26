@@ -30,3 +30,6 @@ The Strouhal number is a dimensionless number describing oscillating flow mechan
 Due to the file size limit, the reconstructed video can be found here: https://www.youtube.com/watch?v=-7NFyvJYAgo
 
 
+## DMD Analysis
+
+## Sparse Identification of Nonlinear System
