@@ -21,10 +21,12 @@ The first two mode temporal amplitudes show about 45 degrees offset meaning the 
 ![ux spatial modes](images/ux_spatial%20modes.png)
 ![uy spatial modes](images/uy_spatial%20modes.png)
 
-Now, the temporal amplitudes give us the frequency $\f$. Then, once we have details of the flow condition, the fluid speed $c$ can also be computed. Then, $\lambda = c / f$ will give the wavelength associated with each oscillatory mode.
+Now, the temporal amplitudes give us the frequency $f$. Then, once we have details of the flow condition, the fluid speed $c$ can also be computed. Then, $\lambda = c / f$ will give the wavelength associated with each oscillatory mode.
 
 ### Strouhal Number
-The Strouhal number is a dimensionless number describing oscillating flow mechanisms. Typical fluid flow past cylinder should yied St $= 0.2$. Once the frequency $\f$ associated with the dominant oscillatory mode pair is computed, the Strouhal number can be computed via $\frac{fL}{U}$ where L is the airfoil thickness, and U is the average flow velocity. 
+The Strouhal number is a dimensionless number describing oscillating flow mechanisms. Typical fluid flow past cylinder should yied St $= 0.2$. Once the frequency $f$ associated with the dominant oscillatory mode pair is computed, the Strouhal number can be computed via $\frac{fL}{U}$ where L is the airfoil thickness, and U is the average flow velocity. 
 
 ### Fluid flow Reconstruction
-![fluid flow reconstruction](images/Flow_Reconstruction_Comparison_MultiRow.avi)
+Due to the file size limit, the reconstructed video can be found here: https://www.youtube.com/watch?v=-7NFyvJYAgo
+
+
