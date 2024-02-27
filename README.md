@@ -38,7 +38,7 @@ From this plot, it can be seen that unlike POD where the dominant modes arise in
 ![modes](images/dmd_modes.png)
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
 Furthermore, in attempt to get some more insight into the time-dynamics of the DMD modes, I attempted to plot the time-dynamics 
-$exp(\omega*t)*amplitude$
+$\exp(\omega*t)*amplitude$
 however, I am running into results that are not physically sensible.
 ![temp](images/temporal_test.png)
 
