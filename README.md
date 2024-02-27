@@ -33,14 +33,14 @@ The video shows that rank 6 approximation of the fluid flow reconstructs almost 
 ## DMD Analysis
 ### Temporal Amplitudes and the frequency associated with oscillations
 ![temporal amplitude](images/dmd_mode_amplitude.png)
-![modes](images/dmd_modes.png)
-![temp](images/temporal_test.png)
 The plot gives the temporal amplitude of each DMD mode.
 From this plot, it can be seen that unlike POD where the dominant modes arise in descending order, the DMD modes do not necessarily align themselves conveninently.
+![modes](images/dmd_modes.png)
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
 Furthermore, in attempt to get some more insight into the time-dynamics of the DMD modes, I attempted to plot the time-dynamics 
 $\exp(\omega*t)*\text{amplitude}$
 however, I am running into results that are not physically sensible.
+![temp](images/temporal_test.png)
 
 ### Spatial modes and wavelength
 As before, since frequency is given, wavelength associated with such mode can be easily computed. One takeaway here is as follows: Since POD does not take into account of time-dynamics, it's difficult to gauge the temporal frequency associated with each mode. In our example, the fluid flow has dominant oscillatory features which means the frequencies can be calculated visually. On the other hand, DMD gives a direct method of retrieving the temporal frequency. 
@@ -49,4 +49,3 @@ As before, since frequency is given, wavelength associated with such mode can be
 The spatial modes of $u_x$ in both DMD and POD do show some similarities. However, they are not exact. This doesn't sound very intuitive to me at first because DMD is, after all, an extension of POD analysis. Hence, DMD should uncover physics beyond what POD analysis describes. (Question...)
 
 ## Sparse Identification of Nonlinear System
-![temp](images/temporal_test.png)
