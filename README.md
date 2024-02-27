@@ -32,8 +32,8 @@ The video shows that rank 6 approximation of the fluid flow reconstructs almost 
 
 ## DMD Analysis
 ### Temporal Amplitudes and the frequency associated with oscillations
+![temporal amplitude](images/dmd_mode_amplitude.png)
 The plot gives the temporal amplitude of each DMD mode.
-![ux spatial modes](images/ux_spatial%20modes.png)
 From this plot, it can be seen that unlike POD where the dominant modes arise in descending order, the DMD modes do not necessarily align themselves conveninently.
 ![modes](images/dmd_modes.png)
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
