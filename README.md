@@ -49,3 +49,4 @@ As before, since frequency is given, wavelength associated with such mode can be
 The spatial modes of $u_x$ in both DMD and POD do show some similarities. However, they are not exact. This doesn't sound very intuitive to me at first because DMD is, after all, an extension of POD analysis. Hence, DMD should uncover physics beyond what POD analysis describes. (Question...)
 
 ## Sparse Identification of Nonlinear System
+![temp](images/temporal_test.png)
