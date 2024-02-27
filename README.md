@@ -37,6 +37,12 @@ The plot gives the temporal amplitude of each DMD mode.
 From this plot, it can be seen that unlike POD where the dominant modes arise in descending order, the DMD modes do not necessarily align themselves conveninently.
 ![modes](images/dmd_modes.png)
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
+Furthermore, in attempt to get some more insight into the time-dynamics of the DMD modes, I attempted to plot the time-dynamics 
+$$
+exp(w*t)*amplitude
+$$
+however, I am running into results that are not physically sensible.
+![temp](temporal_test.png)
 
 ### Spatial modes and wavelength
 As before, since frequency is given, wavelength associated with such mode can be easily computed. One takeaway here is as follows: Since POD does not take into account of time-dynamics, it's difficult to gauge the temporal frequency associated with each mode. In our example, the fluid flow has dominant oscillatory features which means the frequencies can be calculated visually. On the other hand, DMD gives a direct method of retrieving the temporal frequency. 
