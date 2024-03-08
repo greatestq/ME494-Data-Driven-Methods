@@ -55,4 +55,7 @@ As before, since frequency is given, wavelength associated with such mode can be
 The spatial modes of $u_x$ in both DMD and POD do show some similarities. However, they are not exact. This doesn't sound very intuitive to me at first because DMD is, after all, an extension of POD analysis. Hence, DMD should uncover physics beyond what POD analysis describes. (Question...)
 
 ## Sparse Identification of Nonlinear System (SINDY)
-SINDY is essentially a data fitting technique. Suppose you are given a data set of $x = [x_1, x_2, x_3, ... , x_n].$ As long as the data is collected at a short-enough time interval, one can obtain an expression for $\cdot{x} = [\cdot{x_1}, ..., \cdot{x_n}]$. Then, SINDY will throw a library of functions $\Theta$ and try to find the best fit regression for the given $\cdot{x}$.
+SINDY is essentially a data fitting technique. Suppose you are given a data set of $x = [x_1, x_2, x_3, ... , x_n].$ As long as the data is collected at a short-enough time interval, one can obtain an expression for $\dot{x} = [\dot{x_1}, ..., \dot{x_n}]$. Then, SINDY will throw a library of functions $\Theta$ and try to find the best fit regression for the given $\dot{x}$.
+
+![sindy](images/sindy.png)
+Above is my attempt at utilizing SINDY to reconstruct the first 6 temporal amplitudes that were retrieved via POD analysis. As one can see, the SINDY-found derivatives and reconstructed dynamics (used 'cumtrapz') are generally in alignement but there are some discrepancies especially at local extrema. 
