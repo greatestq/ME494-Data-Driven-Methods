@@ -20,6 +20,7 @@ The first two mode temporal amplitudes show about 45 degrees offset meaning the 
 ### Plot of the first 6 spatial modes
 ![ux spatial modes](images/ux_spatial%20modes.png)
 ![uy spatial modes](images/uy_spatial%20modes.png)
+![temp](images/dmd_mode_amplitudes.png)
 
 Now, the temporal amplitudes give us the frequency $f$. Then, once we have details of the flow condition, the fluid speed $c$ can also be computed. Then, $\lambda = c / f$ will give the wavelength associated with each oscillatory mode.
 
