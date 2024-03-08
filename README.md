@@ -30,10 +30,9 @@ The Strouhal number is a dimensionless number describing oscillating flow mechan
 Due to the file size limit, the reconstructed video can be found here: https://www.youtube.com/watch?v=-7NFyvJYAgo
 The video shows that rank 6 approximation of the fluid flow reconstructs almost all the physics - vortices shedding with proper magnitude, osccilatory motion, and etc.
 
+## DMD Analysis
 ![uy spatial modes](images/uy_spatial%20modes.png)
 
-
-## DMD Analysis
 This section talks about DMD analysis of the same data set.
 
 ### Temporal Amplitudes and the frequency associated with oscillations
