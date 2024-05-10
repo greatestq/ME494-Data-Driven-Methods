@@ -1,6 +1,12 @@
 # ME494-Data Driven Methods
  2024 Spring Independent Study on Data Driven Methods in Mechanical Engineering
 
+This repository contains programming assignments and results for independent study ME493: Methods of Data-Driven Control. This independent study provides introduction to data-driven methods in the scope of mechanical engineering. Data-driven methods such as Proper Orthogonal Decomposition (POD), Dynamic Mode Decomposition (DMD), Eigen-Realization Algorithm (ERA), Sparse Identification of Non-Linear Dynamics (SINDY) are covered as part of introduction lectures. Then, a final project of one's choice is investigated.  
+
+My colleague, Ben Aziel, has compiled a document describing the course's contents. The document can be viewed here: https://azielben.quarto.pub/me493-ddc/
+
+Below are some of the results that I have collected when trying to be more familiarized with the concepts that were introduced during the lectures.
+
 ## POD Analysis 
 To practice POD analysis, we have taken a data set from  http://deepblue.lib.umich.edu/data/collections/kk91fk98z. The data set that I chose for this assignment is low Reynolds number airfoil DNS with angle of attack of 25 degrees and pitching frequency of 0.05 degrees. 
 
@@ -28,8 +34,3 @@ The Strouhal number is a dimensionless number describing oscillating flow mechan
 
 ### Fluid flow Reconstruction
 Due to the file size limit, the reconstructed video can be found here: https://www.youtube.com/watch?v=-7NFyvJYAgo
-
-
-## DMD Analysis
-
-## Sparse Identification of Nonlinear System
