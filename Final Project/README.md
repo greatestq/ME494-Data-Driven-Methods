@@ -11,7 +11,7 @@ As Dr. Brunton and his collaborators have stated in their work, SINDY has been f
 
 As part of preliminary testing, I am diving the numerical simulation grid into 24 different "zones", then running SINDY locally to see what the governing equations may look like.
 ![Preliminary Zone Division](Images/First%20Grid%20Test%20Schematic.png)
-We expect to see the vortex generation terms near the circular cylinder. Then further down the wakes, we should be seeing the laplcian terms starting to emerge as vortex generation should be, physically speaking, less dominant further away from the cylinder.
+We expect to see the vortex convection terms near the circular cylinder. Then further down the wakes, we should be seeing the laplcian terms starting to emerge as convection should be, physically speaking, less dominant further away from the cylinder.
 
 Below are the results from preliminary testing:
 
