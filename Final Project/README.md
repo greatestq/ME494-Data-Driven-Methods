@@ -51,3 +51,15 @@ Below are the results from preliminary testing:
  &-0.354807ww_x + 0.513594wuw_x +0.109391vw_{xx}-0.140507uvw_{xx} \\ &+0.456267vw_{xy} -0.302760ww_{xy}-0.639749uvw_{xy}+0.299630wuw_{xy} \\
  Zone_{64}: w_t &= 0.246817 -0.879589w_x - 0.199581w_y -0.593545u + 0.360972u^2 \\ &-0.426931wu + 0.312007vw_{xx}-0.291659uvw_{xx}+0.037428wuw_{xx}+0.505514vw_{xy} \\ &-0.566960uvw_{xy}
  \end{align*}
+
+ Now, what is not obvious are the regions inbetween the extreme ends. Here, we are seeing "non-sparsity". In other words, there are many terms that are not present in the actual vorticity transport equation. Therefore, we played around with the $\lambda$ parameter to tweak the algorithm sensitivity. However, the inner zone's "non-sparsity" are still present. Based on these findings, we are now proposing three different perspectives that we would like to take on over the summer.
+
+ 1. Using the weak formulation to compute the spatial derivatives and seeing whether results are "derivative-invariant". In other words, can we test different methods' equivalence?
+
+ 2. Dr. Philip Yecko has provided us with a MATLAB code that simulates inner ocean geophysical flow with Munk condition. This type of flow is famous for having distinct regions of different flow structures. We are hoping to take our "zone-SIDNY" idea and see if we can extract the dominant physics in different parts of the flow.
+
+ 3. There is a possibility that the "non-sparsity" in the inner-regions represent the actual non-linear mechanism that generates vortices. Since our data is 2-dimensional and there is no vortex stretching in 2D, these non-sparse terms may represent the vortex generation/maintanence mechanism that is not well known in turbulence. 
+
+This document will continue to be updated over the summer.
+
+Last Update: May 10, 2024
