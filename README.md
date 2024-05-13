@@ -41,6 +41,7 @@ The plot gives the temporal amplitude of each DMD mode.
 From this plot, it can be seen that unlike POD where the dominant modes arise in descending order, the DMD modes do not necessarily align themselves conveninently.
 
 ![modes](images/dmd_modes.png)
+
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
 Furthermore, in attempt to get some more insight into the time-dynamics of the DMD modes, I attempted to plot the time-dynamics 
 $\exp(\omega t)*\text{amplitude}$
