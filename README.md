@@ -41,6 +41,7 @@ The plot gives the temporal amplitude of each DMD mode.
 From this plot, it can be seen that unlike POD where the dominant modes arise in descending order, the DMD modes do not necessarily align themselves conveninently.
 
 ![modes](images/dmd_modes.png)
+![modes](images/dmd_modes_2.png)
 
 The spatial mode plot above shows the frequencies associated with the dominant modes oscillations.
 Furthermore, in attempt to get some more insight into the time-dynamics of the DMD modes, I attempted to plot the time-dynamics 
@@ -58,5 +59,6 @@ The spatial modes of $u_x$ in both DMD and POD do show some similarities. Howeve
 SINDY is essentially a data fitting technique. Suppose you are given a data set of $x = [x_1, x_2, x_3, ... , x_n].$ As long as the data is collected at a short-enough time interval, one can obtain an expression for $\dot{x} = [\dot{x_1}, ..., \dot{x_n}]$. Then, SINDY will throw a library of functions $\Theta$ and try to find the best fit regression for the given $\dot{x}$.
 
 ![sindy](images/sindy.png)
+![sindy2](images/sindy2.png)
 
 Above is my attempt at utilizing SINDY to reconstruct the first 6 temporal amplitudes that were retrieved via POD analysis. As one can see, the SINDY-found derivatives and reconstructed dynamics (used 'cumtrapz') are generally in alignement but there are some discrepancies especially at local extrema. Interestingly, although the derivatives show discrepancies, the reconstructed dynamics (f(x)) is exactly the same. I am hoping to get more insights into why this is occurring by taking a closer look at the actual expansion, what basis functions are being used, and etc.
